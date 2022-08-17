@@ -35,10 +35,7 @@ public class HelloApplication extends Application {
         root = new Group(); // JavaFX scene needs a root for the graphic elements
         Scene scene = new Scene(root, 640, 480); // the scene is the actual graphic to be shown
 
-        // 2. Create the shape objects
-
-
-        // 3. Add objects and show them
+        // 2. Create and  Add objects and show them
         addRectangles();
         addSquare();
         addCircles();
