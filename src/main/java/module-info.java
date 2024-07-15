@@ -1,9 +1,8 @@
-module ph.edu.dlsu.lbycpei.artistrysample {
+module com.example.standardhello {
     requires javafx.controls;
     requires javafx.fxml;
 
-    requires org.controlsfx.controls;
 
-    opens ph.edu.dlsu.lbycpei.artistrysample to javafx.fxml;
-    exports ph.edu.dlsu.lbycpei.artistrysample;
+    opens com.example.standardhello to javafx.fxml;
+    exports com.example.standardhello;
 }
